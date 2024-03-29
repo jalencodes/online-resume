@@ -5,31 +5,14 @@
     /* display: flex; */
 }
 
+.top-bar{
+    display: flex;
+}
+
 .top{
     height: 300px;
     /* border: 3px solid blue; */
     /* background-color: blue; */
-}
-
-.top div{
-    /* border: px solid black; */
-}
-
-.bottom{
-    height: 800px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.left{
-    width: 65%;
-    border: 3px solid green;
-}
-
-
-.right{
-    width: 35%;
-    border: 3px solid red;
 }
 
 .top img{
@@ -37,8 +20,8 @@
     padding: 4px;
 }
 
-#contact{
-    display: block;
+#name{
+    font-size: xx-large;
 }
 
 .top-left{
@@ -47,17 +30,6 @@
     justify-content: space-evenly;
     align-items: center;
     /* border: 1px solid black; */
-}
-
-.intro{
-    text-align: center;
-}
-#name{
-    /* min-width: 100%;
-    max-width: 160%; */
-    /* font-size-adjust: calc(1); */
-    font-size: xx-large;
-    text
 }
 
 .top-right{
@@ -72,6 +44,18 @@
     font-size: larger;
 }
 
+.top > p {
+    text-align: left;
+    font-size: 15px;
+    margin-right: 20px;
+    margin-left: 20px;
+    /* padding: 20px; */
+}
+
+.intro{
+    text-align: center;
+}
+
 li > span{
     font-weight: bolder;
 }
@@ -84,20 +68,7 @@ li > span{
 }
 
 #links img{
-    width:50px;
-    
-}
-
-.top-bar{
-    display: flex;
-}
-
-.top > p {
-    text-align: left;
-    font-size: 15px;
-    margin-right: 20px;
-    margin-left: 20px;
-    /* padding: 20px; */
+    width:50px;   
 }
 
 hr{
@@ -105,3 +76,55 @@ hr{
     margin-left: 20px;
 }
 
+.bottom{
+    height: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left{
+    width: 65%;
+    border: 3px solid green;
+}
+
+#emp{
+    padding-left: 20px;
+}
+
+.job {
+    display: flex;
+    justify-content: space-between;
+    padding-left:20px;
+    padding-right: 20px;
+}
+
+.job > p{
+    margin: 0;
+}
+
+.loc{
+    color: blue;
+}
+.time{
+    color: red;
+}
+
+.job + p{
+    padding-left:20px;
+    padding-right: 20px;
+    /* color:blue; */
+    margin: 1px;
+    padding-bottom: 10px;
+}
+
+p + p{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0;
+}
+
+
+.right{
+    width: 35%;
+    border: 3px solid red;
+}
