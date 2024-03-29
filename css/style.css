@@ -140,3 +140,7 @@ p + p{
     width: 35%;
     border: 3px solid red;
 }
+
+.right h2{
+    text-align: center;
+}
