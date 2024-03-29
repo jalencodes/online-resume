@@ -1,7 +1,7 @@
 .resume{
     background-image: linear-gradient(red, yellow);
     width:800px;
-    border-radius: 10px;
+    border-radius: 30px;
     /* display: flex; */
 }
 
@@ -10,7 +10,7 @@
 }
 
 .top{
-    height: 300px;
+    height: 340px;
     /* border: 3px solid blue; */
     /* background-color: blue; */
 }
@@ -46,7 +46,7 @@
 
 .top > p {
     text-align: left;
-    font-size: 15px;
+    font-size: 17px;
     margin-right: 20px;
     margin-left: 20px;
     /* padding: 20px; */
@@ -84,7 +84,17 @@ hr{
 
 .left{
     width: 65%;
-    border: 3px solid green;
+}
+
+.entry{
+    background-color: white;
+    /* background-position-x: ; */
+    /* background-clip: padding-box; */
+    margin-left: 20px;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    opacity: .8;
 }
 
 #emp{
@@ -94,8 +104,8 @@ hr{
 .job {
     display: flex;
     justify-content: space-between;
-    padding-left:20px;
-    padding-right: 20px;
+    /* padding-left:20px;
+    padding-right: 20px; */
 }
 
 .job > p{
@@ -103,23 +113,25 @@ hr{
 }
 
 .loc{
-    color: blue;
+    font-size: large;
+    font-weight: 600;
 }
 .time{
+    font-size: large;
     color: red;
 }
 
 .job + p{
-    padding-left:20px;
-    padding-right: 20px;
+    /* padding-left:20px;
+    padding-right: 20px; */
     /* color:blue; */
     margin: 1px;
     padding-bottom: 10px;
 }
 
 p + p{
-    padding-left: 20px;
-    padding-right: 20px;
+    /* padding-left: 20px;
+    padding-right: 20px; */
     margin: 0;
 }
 
