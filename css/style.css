@@ -129,18 +129,44 @@ hr{
     padding-bottom: 10px;
 }
 
-p + p{
-    /* padding-left: 20px;
-    padding-right: 20px; */
-    margin: 0;
-}
-
 
 .right{
     width: 35%;
-    border: 3px solid red;
 }
 
 .right h2{
     text-align: center;
 }
+
+.code-logos{
+        padding-top: 5px;
+        padding-bottom: 0px;
+        /* display: flex; */
+        align-items: center;
+}
+
+.code-logos li{
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+
+.code-logos img{
+    width:50px
+}
+
+.code-logos span{
+    margin-left: 20px;
+}
+
+#c{
+    border-radius: 25px;
+}
+
+#java{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
